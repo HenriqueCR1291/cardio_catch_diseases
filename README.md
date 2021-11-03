@@ -93,41 +93,46 @@ Below it is listed the ML models applied:
 # 6. Machine Learning Modelo Performance
 
 **Without Boosting and Bagging**
-| ML Model                | Outlier/Normalization   | Feature Selection  | Accuracy          |
-|:------------------------|:------------------------|:-------------------|:------------------|
-| Logistic Regression     | No/Yes                  | None               | 0,719067          |
-|                         | Yes/No                  | None               | 0,711857          |   
-|                         | No/Yes                  | Lasso              | 0,704134          | 
-|                         | No/Yes                  | Relief             | 0,717817          | 
-| Random Forest           | No/Yes                  | None               | 0,704208          |
-|                         | Yes/No                  | None               | 0,707571          |   
-|                         | No/Yes                  | Lasso              | 0,715683          | 
-|                         | No/Yes                  | Relief             | 0,704649          |
-| K-NN                    | No/Yes                  | None               | 0,632044          |
-|                         | Yes/No                  | None               | 0,639143          |   
-|                         | No/Yes                  | Lasso              | 0,612329          | 
-|                         | No/Yes                  | Relief             | 0,634765          | 
-| SVM                     | No/Yes                  | None               | 0,698543          |
-|                         | Yes/No                  | None               | 0,722429          |   
-|                         | No/Yes                  | Lasso              | 0,696189          | 
-|                         | No/Yes                  | Relief             | 0,688171          | 
+| ML Model                | Outlier/Normalization   | Feature Selection  | Accuracy           |
+|:------------------------|:------------------------|:-------------------|:-------------------|
+| Logistic Regression     | No/Yes                  | None               | 0.5773 +/- 0.0414  |
+|                         | Yes/No                  | None               | 0.7004 +/- 0.0047  |   
+|                         | No/Yes                  | Lasso              | 0.7022 +/- 0.005   | 
+|                         | No/Yes                  | Relief             | 0.7135 +/- 0.0056  | 
+| Random Forest           | No/Yes                  | None               | 0.7154 +/- 0.0041  |
+|                         | Yes/No                  | None               | 0.7212 +/- 0.0053  |   
+|                         | No/Yes                  | Lasso              | 0.7145 +/- 0.0049  | 
+|                         | No/Yes                  | Relief             | 0.6995 +/- 0.004   |
+| K-NN                    | No/Yes                  | None               | 0.5046 +/- 0.002   |
+|                         | Yes/No                  | None               | 0.6    +/- 0.0037  |   
+|                         | No/Yes                  | Lasso              | 0.6206 +/- 0.0104  | 
+|                         | No/Yes                  | Relief             | 0.6311 +/- 0.0025  | 
+| SVM                     | No/Yes                  | None               | 0.5    +/- 0.0     |
+|                         | Yes/No                  | None               | 0.4975 +/- 0.0063  |   
+|                         | No/Yes                  | Lasso              | 0.6957 +/- 0.0061  | 
+|                         | No/Yes                  | Relief             | 0.6829 +/- 0.0046  | 
 
 
 **With Boosting and Bagging**
-| ML Model                | Method          | Accuracy          |
-|:------------------------|:----------------|:------------------|
-| Random Forest           | Bagging         | 0,72355           |
-| K-NN                    | Bagging         | 0,6869            | 
-| AdaBoost                | Boosting        | **0,728189**      |
-| Decision Tree           | Bagging         | 0,709063          |
-| Decision Tree           | Bagging/Relief  | 0,708989          |
+| ML Model                | Method                | Accuracy               |
+|:------------------------|:----------------------|:-----------------------|
+| Random Forest           | Bagging               | 0.7281 +/- 0.0065      |
+| K-NN                    | Bagging               | 0.709  +/- 0.0028      | 
+| AdaBoost                | Boosting              | 0.7221 +/- 0.0073      |
+| AdaBoost                | Boosting/With Outlier | **0.7286 +/- 0.0062**  |
+| AdaBoost                | Boosting/Lasso        | 0.7145 +/- 0.0055      |
+| AdaBoost                | Boosting/Relief       | 0.7225 +/- 0.0072      |
+| Decision Tree           | Bagging               | 0.7194 +/- 0.0039      |
+| Decision Tree           | Bagging/With Outlier  | 0.7236 +/- 0.0064      |
+| Decision Tree           | Bagging/Lasso         | 0.7161 +/- 0.0058      |
+| Decision Tree           | Bagging/Relief        | 0.7054 +/- 0.0044	     |
 
 # 7. Business Results
 
 | Exam Accuracy | Price          | Total Exams    | Total                    | 
 |:--------------|:---------------|:---------------|:-------------------------|
 | Above 50%     | min \$500\.00  | 70.000         | \$35.000.000\.00         |
-| Up to 72/73%  | max \$2000\.00 | 70.000         | \$140.000.000.000\.00    |
+| Up to 73%     | max \$2000\.00 | 70.000         | \$140.000.000.000\.00    |
 
 # 8. Conclusions
 Applying ML model, like AdaBoost in the dataset is possible to obtain a profit 400x than using old method with accuracy up to 73%.
