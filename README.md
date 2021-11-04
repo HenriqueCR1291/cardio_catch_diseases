@@ -132,10 +132,10 @@ Below it is listed the ML models applied:
 | Exam Accuracy | Price          | Total Exams    | Total                    | 
 |:--------------|:---------------|:---------------|:-------------------------|
 | Above 50%     | min \$500\.00  | 70.000         | \$35.000.000\.00         |
-| Up to 73%     | max \$2000\.00 | 70.000         | \$140.000.000.000\.00    |
+| Up to 73%     | max \$2000\.00 | 70.000         | \$140.000.000\.00    |
 
 # 8. Conclusions
-Applying ML model, like AdaBoost in the dataset is possible to obtain a profit 400x than using old method with accuracy up to 73%.
+Applying ML model, like AdaBoost in the dataset is possible to obtain a profit 4x than using old method with accuracy up to 73%.
 
 # 9. Lessons Learned
 
