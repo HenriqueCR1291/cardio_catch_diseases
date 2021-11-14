@@ -27,13 +27,34 @@ Thus, we see that **different values in the exam precision**, given by the team 
 ## Stakeholder:
 Cardio Catch Diseases CEO
 
-## Solution plan:
+## Business Problem:
 
-Granularity: Diseases classification
+1) Predict pople who will develop a CVD, analysing exams and habits.
 
-Problem type: Classification
+###Final Product
 
-Final product: Diseases diagnosis with a maximum precision
+List of people and predict of having a CVD
+
+###Process
+Perform feature engineering in the database and raise the hypotheses for each attribute to be validated;
+At EDA, validate hypotheses and identify insights;
+Define the delivery format (view, table, sentence)
+Graphics that best demonstrate the information.
+
+Schema definition: columns and their type
+Script scheduling planning (dependency between scripts)
+Delivery of the final product
+List
+
+###Enter
+
+Data source:
+Kaggle
+
+Tools:
+Pyhton 3.8.0
+Jupyter Notebook
+
 
 # 2. Business Assumptions.
 For this business assume 70K costumers
