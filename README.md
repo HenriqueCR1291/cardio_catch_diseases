@@ -36,23 +36,31 @@ Cardio Catch Diseases CEO
 List of people and predict of having a CVD
 
 ###Process
+
 Perform feature engineering in the database and raise the hypotheses for each attribute to be validated;
+
 At EDA, validate hypotheses and identify insights;
+
 Define the delivery format (view, table, sentence)
+
 Graphics that best demonstrate the information.
 
 Schema definition: columns and their type
+
 Script scheduling planning (dependency between scripts)
+
 Delivery of the final product
-List
 
 ###Enter
 
 Data source:
+
 Kaggle
 
 Tools:
+
 Pyhton 3.8.0
+
 Jupyter Notebook
 
 
