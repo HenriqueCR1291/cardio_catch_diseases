@@ -87,27 +87,27 @@ The strategy adopted was using the model process CRoss Industry Standard Process
 
 Below the insights got from the data:
 
-**1) Analysis between 39 - 64. People over 50 are on average 20% more likely to have CVD than under 50** - On average people over 50 are 56.6% likely to have CVD and 20.9% more likely than under 50. 63 years old has the highest incidence.
+**1) Analysis between 39 - 64. People over 50 are on average 20% more likely to have CVD than under 50** - On average people over 50 are 56.2% likely to have CVD and 21.2% more likely than under 50. 63 years old has the highest incidence.
 
-**2) Analysis between 140 - 193 cm. People shorter than 170 cm (5'7'') have a 5% more chance of CVDs than over 170 cm** - On average people shorter than 170 cm have 4.5% more likely to have CVD than over 170.
+**2) Analysis between 140 - 193 cm. People shorter than 170 cm (5'7'') have a 5% more chance of CVDs than over 170 cm** - On average people shorter than 170 cm have 3.15% more likely to have CVD than over 170.
 
-**3) Men are 30% more likely than women to develop a CVD** - Although men had more CVD than women, the gap are lesser than 30%. Men had 50,1% of cases of CVD, while women had 49,6%
+**3) Men are 30% more likely than women to develop a CVD** - Although men had more CVD than women, the gap are lesser than 30%. Men had 49,75% of cases of CVD, while women had 49%
 
-**4) Analysis between 50 - 130. People over 100 kg (220 lb) have 40% more chance of having a CVD than 100 kg** - On average people with over 100 kg have 19.9% more chance of having a CVD than below 100 kg
+**4) Analysis between 50 - 130. People over 100 kg (220 lb) have 40% more chance of having a CVD than 100 kg** - On average people with over 100 kg have 18.8% more chance of having a CVD than below 100 kg
 
-**5) People with a BMI above 30 (obese class I) have 25% more chance of having a CVD than below 30** - People with a BMI above than 30 have 26.3% chance of having CVD than BMI below 30
+**5) People with a BMI above 30 (obese class I) have 25% more chance of having a CVD than below 30** - People with a BMI above than 30 have 27.2% chance of having CVD than BMI below 30
 
-**6) People who do not engage in physical activity are 40% more likely to have CVDs than who engage** - People who engage in physical activity more have 4.6% chance of having CVD
+**6) People who do not engage in physical activity are 40% more likely to have CVDs than who engage** - People who not engage in physical activity have 4.9% more chance of having CVD than who engage
 
-**7) People who regularly consume alcohol have a 10% chance of having CVD than those who do not consume** - People who regularly consume alcohol have 1.9% less chance of having CVD than who don't consume
+**7) People who regularly consume alcohol have a 10% chance of having CVD than those who do not consume** - People who not engage in physical activity have 4.9% more chance of having CVD than who engage
 
 **8) People who smoke are 20% more likely to have CVD than who do not smoke** - People who smoke have 3% less chance of having CVD than who doesn't
 
-**9) People with well above normal cholesterol have a 50% chance of having CVD than normal** - People with well above normal cholesterol have 33% likely than people with normal
+**9) People with well above normal cholesterol have a 50% chance of having CVD than normal** - People with well above normal cholesterol have 32% likely than people with normal
 
 **10) People with well above normal glucose have a 20% chance of having CVD than normal** - People with well above normal glucose have 14.1% more likely than people with normal glucose
 
-**11) People who have hypertension have 40% chance of having CVD than who have normal blood pressure** - People with hypertension 3 have 54.2% more chance of having a CVD than people with normal blood pressure
+**11) People who have hypertension have 40% chance of having CVD than who have normal blood pressure** - People with hypertension 3 have 52.4% more chance of having a CVD than people with normal blood pressure
 
 # 5. Machine Learning Model Applied
 
